@@ -18,12 +18,6 @@ namespace ProyectoParqueadero
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
 
-            usuarioUsual usuario1 = new usuarioUsual("daniel","123");
-
-            if(usuario1.NombreUsuario == "daniel")
-            {
-
-            }
         }
     }
 }

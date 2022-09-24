@@ -13,11 +13,11 @@ namespace ProyectoParqueadero
 
         public usuarioUsual(string nombreUsuario, string contrasenia)
         {
-            NombreUsuario = nombreUsuario;
-            Contrasenia = contrasenia;
+            _nombreUsuario = nombreUsuario;
+            _contrasenia = contrasenia;
         }
 
-        public override string NombreUsuario { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string Contrasenia { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override string NombreUsuario { get => _nombreUsuario; set => _nombreUsuario = value; }
+        public override string Contrasenia { get => _contrasenia; set => _contrasenia = value; }
     }
 }

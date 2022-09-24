@@ -1,0 +1,11 @@
+C:\Users\danis\source\repos\ProyectoParqueadero\bin\Debug\ProyectoParqueadero.exe.config
+C:\Users\danis\source\repos\ProyectoParqueadero\bin\Debug\ProyectoParqueadero.exe
+C:\Users\danis\source\repos\ProyectoParqueadero\bin\Debug\ProyectoParqueadero.pdb
+C:\Users\danis\source\repos\ProyectoParqueadero\obj\Debug\ProyectoParqueadero.csproj.AssemblyReference.cache
+C:\Users\danis\source\repos\ProyectoParqueadero\obj\Debug\ProyectoParqueadero.csproj.SuggestedBindingRedirects.cache
+C:\Users\danis\source\repos\ProyectoParqueadero\obj\Debug\ProyectoParqueadero.Form1.resources
+C:\Users\danis\source\repos\ProyectoParqueadero\obj\Debug\ProyectoParqueadero.Properties.Resources.resources
+C:\Users\danis\source\repos\ProyectoParqueadero\obj\Debug\ProyectoParqueadero.csproj.GenerateResource.cache
+C:\Users\danis\source\repos\ProyectoParqueadero\obj\Debug\ProyectoParqueadero.csproj.CoreCompileInputs.cache
+C:\Users\danis\source\repos\ProyectoParqueadero\obj\Debug\ProyectoParqueadero.exe
+C:\Users\danis\source\repos\ProyectoParqueadero\obj\Debug\ProyectoParqueadero.pdb

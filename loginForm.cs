@@ -15,6 +15,18 @@ namespace ProyectoParqueadero
         public Form1()
         {
             InitializeComponent();
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            usuarioUsual usuario1 = new usuarioUsual("daniel", "123");
+            if (usuario1.NombreUsuario == nombreUsuarioTxt.Text && usuario1.Contrasenia == contraseniaTxt.Text)
+            {
+                Console.WriteLine("logueao");
+                Close();
+            }
+
         }
     }
 }
