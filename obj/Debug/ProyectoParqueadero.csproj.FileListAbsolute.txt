@@ -9,3 +9,4 @@ C:\Users\danis\source\repos\ProyectoParqueadero\obj\Debug\ProyectoParqueadero.cs
 C:\Users\danis\source\repos\ProyectoParqueadero\obj\Debug\ProyectoParqueadero.csproj.CoreCompileInputs.cache
 C:\Users\danis\source\repos\ProyectoParqueadero\obj\Debug\ProyectoParqueadero.exe
 C:\Users\danis\source\repos\ProyectoParqueadero\obj\Debug\ProyectoParqueadero.pdb
+C:\Users\danis\source\repos\ProyectoParqueadero\obj\Debug\ProyectoParqueadero.RegistroForm.resources

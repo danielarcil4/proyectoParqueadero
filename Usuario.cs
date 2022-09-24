@@ -10,5 +10,6 @@ namespace ProyectoParqueadero
     {
         public abstract string NombreUsuario { get; set; }
         public abstract string Contrasenia { get; set; }
+        public static string tipoUsuario { get; }
     }
 }

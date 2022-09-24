@@ -10,14 +10,18 @@ namespace ProyectoParqueadero
     {
         string _nombreUsuario="";
         string _contrasenia="";
+        const string _TIPOUSUARIO = "USUAL";
 
-        public usuarioUsual(string nombreUsuario, string contrasenia)
+        public usuarioUsual()
+        { }
+            public usuarioUsual(string nombreUsuario, string contrasenia)
         {
-            _nombreUsuario = nombreUsuario;
-            _contrasenia = contrasenia;
+            NombreUsuario = nombreUsuario;
+            Contrasenia = contrasenia;
         }
 
         public override string NombreUsuario { get => _nombreUsuario; set => _nombreUsuario = value; }
         public override string Contrasenia { get => _contrasenia; set => _contrasenia = value; }
+        public static string TIPOUSUARIO => _TIPOUSUARIO;
     }
 }

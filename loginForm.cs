@@ -12,21 +12,43 @@ namespace ProyectoParqueadero
 {
     public partial class Form1 : Form
     {
+        private Usuario _usuario = new usuarioUsual();
+        private Usuario _usuario2 = new usuarioUsual("daniel", "123");
+        private Usuario _usuario3 = new usuarioUsual("santiago", "321");
+        private Usuario _usuario4 = new usuarioUsual("ramiro", "123");
         public Form1()
         {
             InitializeComponent();
 
         }
+        public Form1(usuarioUsual usuario)
+        {
+            InitializeComponent();
+            Usuario = usuario;
+        }
+
+        public Usuario Usuario { get => _usuario; set => _usuario = value; }
+        public Usuario Usuario2 { get => _usuario2; set => _usuario2 = value; }
+        public Usuario Usuario3 { get => _usuario3; set => _usuario3 = value; }
+        public Usuario Usuario4 { get => _usuario4; set => _usuario4 = value; }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            usuarioUsual usuario1 = new usuarioUsual("daniel", "123");
-            if (usuario1.NombreUsuario == nombreUsuarioTxt.Text && usuario1.Contrasenia == contraseniaTxt.Text)
+            if (Usuario.NombreUsuario == nombreUsuarioTxt.Text && Usuario.Contrasenia == contraseniaTxt.Text
+                || Usuario2.NombreUsuario == nombreUsuarioTxt.Text && Usuario2.Contrasenia == contraseniaTxt.Text)
             {
-                Console.WriteLine("logueao");
-                Close();
+                labelLogin.Text = "Logueado";
+                Console.WriteLine("logueado");
+                //Application.Exit();
             }
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            RegistroForm registroForm = new RegistroForm();
+            Hide();
+            registroForm.Show();
         }
     }
 }
