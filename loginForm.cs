@@ -41,6 +41,10 @@ namespace ProyectoParqueadero
                 Console.WriteLine("logueado");
                 //Application.Exit();
             }
+            else
+            {
+                labelLogin.Text = "Nombre de usuario o contraseña incorrectos";
+            }
 
         }
 

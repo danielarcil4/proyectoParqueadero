@@ -8,8 +8,8 @@ namespace ProyectoParqueadero
 {
     public class usuarioUsual:Usuario
     {
-        string _nombreUsuario="";
-        string _contrasenia="";
+        string _nombreUsuario="_";
+        string _contrasenia="_";
         const string _TIPOUSUARIO = "USUAL";
 
         public usuarioUsual()
